@@ -18,11 +18,10 @@ export default function intro() {
               RADPRETATION.ai
             </p>
             <p className="text-[#FFA500] font-medium lg:text-[20px] lg:tracking-[10px] tracking-[5px] -mt-2 backdrop-blur-sm">
-              IMAGING SIMPLIFIED
+              HEALTHCARE SIMPLIFIED
             </p>
             <p className="text-slate-200 font-light lg:text-[20px] text-[14px] m-8 mb-2 tracking-[2px]">
-              Revolutionizing cancer detection and treatment through AI-powered
-              Radiology Analysis
+              Revolutionizing healthcare with power of AI
             </p>
           </div>
           <div className="border-2 border-cyan-900 text-white w-[150px] rounded-full p-2 text-center mt-4 bg-gradient-to-r from-[#16a69c] to-cyan-600 hover:drop-shadow-2xl hover:drop-shadow-white backdrop-blur-sm">
