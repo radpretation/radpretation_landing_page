@@ -1,0 +1,134 @@
+/* General Styles */
+.product-container {
+  margin-top: 5%;
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(to right, #E6E6E6, #d4d3d3, #B6BCC8);
+}
+
+.product-title {
+  font-size: 2.5rem;
+  margin-bottom: 5%;
+  color: #4b4b4b;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin: 30px 0;
+  flex-wrap: wrap; 
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 22%;
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  border-top-right-radius: 25%;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6b2fac;
+  margin: 10px 0;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.cta-button {
+  background-color: #9E4CC1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #551d92;
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    padding: 30px;
+  }
+
+  .product-title {
+    font-size: 2rem;
+  }
+
+  .product-cards {
+    gap: 15px;
+  }
+
+  .card {
+    width: 200px;
+    height:320px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-description {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    margin-right:20rem; 
+   }
+}
+
+/* Small Screens (Mobile and below) */
+@media (max-width: 480px) {
+  .product-container {
+    padding: 20px;
+  }
+
+  .product-title {
+    font-size: 1.6rem;
+  }
+
+  .product-cards {
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-description {
+    font-size: 0.8rem;
+  }
+
+  .cta-button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}

@@ -1,0 +1,78 @@
+.how-it-works {
+  padding: 60px 40px; /* Adjust padding for more spacing */
+  background: linear-gradient(to right, #e6e6e6, #d4d3d3, #b6bcc8);
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem; /* Larger title */
+  color: #333;
+  margin-bottom: 40px; /* Increased margin for better spacing */
+}
+
+.radio-work-item {
+  display: flex;
+}
+
+.radio-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Increased gap for better separation */
+  flex: 1;
+}
+
+.icon-container .circle {
+  position: relative;
+  width: 100px; /* Slightly larger size */
+  height: 100px;
+  background: linear-gradient(145deg, #a75dc9, #b394c1, #b9b0bd); /* Gradient for border */
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container .circle::before {
+  content: '';
+  position: absolute;
+  width: 60px; /* Slightly larger inner circle */
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.number {
+  position: relative;
+  z-index: 2;
+  font-size: 1.5rem; /* Larger number font */
+  color: black;
+  font-weight: bold;
+}
+
+.text-content h3 {
+  font-size: 1.4rem; /* Larger text */
+  color: #333;
+  margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+.text-content p {
+  font-size: 1.1rem; /* Slightly larger paragraph text */
+  color: #555;
+  line-height: 1.6; /* Improved readability */
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.dashboard-image {
+  max-width: 90%; /* Slightly smaller width for proper alignment */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Increased shadow for more emphasis */
+}
