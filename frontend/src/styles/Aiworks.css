@@ -1,6 +1,5 @@
 .how-it-works {
   padding: 60px 40px; /* Adjust padding for more spacing */
-  background: linear-gradient(to right, #e6e6e6, #d4d3d3, #b6bcc8);
   border-radius: 8px;
 }
 
@@ -24,13 +23,13 @@
 
 .icon-container .circle {
   position: relative;
-  width: 100px; /* Slightly larger size */
-  height: 100px;
+  width: 80px; /* Slightly larger size */
+  height: 80px;
   background: linear-gradient(145deg, #a75dc9, #b394c1, #b9b0bd); /* Gradient for border */
   border-radius: 50%; /* Make it a circle */
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .icon-container .circle::before {

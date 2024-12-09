@@ -1,12 +1,11 @@
 
 
 /* Navbar Styling */
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 70px;
-  background: linear-gradient(to right, #e6e6e6, #d4d3d3, #b6bcc8);
   position: relative;
 
   top: 0px;
@@ -15,7 +14,7 @@
   width:100%;
   height:80px;
  
-}
+} */
 
 .logo {
   display: flex;
@@ -38,7 +37,7 @@
 .brand-tagline {
   font-size: 5px;
   color: #6b6b6b;
-  margin-top: -20px;
+  /* margin-top: -20px; */
   margin-left:-20px;
 }
 
@@ -62,7 +61,6 @@
 .hero-section {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right, #e6e6e6, #d4d3d3, #b6bcc8);
 }
 
 .hero-content {
@@ -71,7 +69,7 @@
   align-items: center;
   padding: 70px 70px;
   gap: 20px;
-  margin-top:50px;
+  /* margin-top:50px; */
 }
 
 .hero-text {
@@ -92,12 +90,12 @@
 }
 
 .hero-buttons {
-  display: flex;
+  display: inline-flex;
   gap: 20px;
 }
 
 .btn-primary {
-  padding: 12px 25px;
+  padding: 0;
   background-color: #9E4CC1;
   color: #ffffff;
   border: none;
@@ -105,6 +103,7 @@
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
+  width: auto;
 }
 
 .btn-primary:hover {
@@ -134,7 +133,6 @@
 /* Section Spacing and Visibility */
 section {
   padding: 100px 20px; 
-  scroll-margin-top: 80px;
   border-bottom: 1px solid #ddd; 
 }
 

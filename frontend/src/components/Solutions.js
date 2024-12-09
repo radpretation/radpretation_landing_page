@@ -4,7 +4,7 @@ import "../styles/Solutions.css";
 function Solutions() {
   return (
     <div className="advanced-tech" id="Solutions">
-      <h2 className="title">
+      <h2 className="title mt-4">
         Making Radiologists' Lives Simpler with Advanced Technology Solutions
       </h2>
 
@@ -15,7 +15,7 @@ function Solutions() {
             <img
               src="/images/circle1.png" // Replace with your icon URL
               alt="Vision Transformer Icon"
-              className="icon"
+              className="lg:w-[80px] lg:h-[80px] ml-6"
             />
           </div>
           <div className="content">
@@ -23,10 +23,9 @@ function Solutions() {
               Elevating Image Classification with Precision and Speed – Vision Transformer
             </h3>
             <p>
-              ViT divides images into patches and uses a Transformer architecture to analyze each section with incredible
-              accuracy. By embedding these patches into a sequence, ViT achieves advanced image classification, allowing
-              us to interpret medical images with precision and reliability. This technology is especially effective for fast
-              and accurate diagnosis, helping radiologists see beyond the surface.
+            • Patch-Based Precision
+             • Accurate Classification
+             • Speed & Diagnosis
             </p>
           </div>
         </div>
@@ -37,7 +36,7 @@ function Solutions() {
             <img
               src="/images/circle2.png" // Replace with your icon URL
               alt="SegFormer Icon"
-              className="icon"
+              className="lg:w-[80px] lg:h-[80px] ml-6"
             />
           </div>
           <div className="content">
@@ -45,10 +44,9 @@ function Solutions() {
               Next-Generation Image Segmentation for Enhanced Detail – SegFormer
             </h3>
             <p>
-              SegFormer combines the strength of Transformers and multilayer perceptron (MLP) decoders for semantic segmentation. 
-              With its hierarchical Transformer encoder and MLP decoder, SegFormer delivers both local and global insights 
-              without needing positional encoding. This allows for high-resolution image analysis and exceptional adaptability 
-              to different scales, making it ideal for medical imaging scenarios where detail and accuracy are critical.
+            • Transformer-MLP Fusion
+            • Detailed & Scalable
+            • Optimized for Accuracy
             </p>
           </div>
         </div>
@@ -60,15 +58,15 @@ function Solutions() {
             <img
               src="/images/circle3.png" // Replace with your icon URL
               alt="Custom Workflows Icon"
-              className="icon"
+              className="lg:w-[80px] lg:h-[80px] ml-6"
             />
           </div>
           <div className="content">
             <h3>Customizable Workflows for Enhanced Flexibility</h3>
             <p>
-              Tailor workflows to meet specific clinical requirements, ensuring seamless integration into existing systems. 
-              Advanced AI tools offer flexibility and control, enabling radiologists to optimize efficiency and adapt to 
-              diverse diagnostic challenges.
+            • Promptable Versatility
+            • Expansive Training
+            • Unmatched Adaptability
             </p>
           </div>
         </div>

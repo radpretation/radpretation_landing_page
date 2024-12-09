@@ -33,7 +33,7 @@ function Contact() {
   };
 
   return (
-    <div className="main">
+    <div className="main mt-5">
       <div className="contact-form-container">
         <h2 id="Contact">Contact Us</h2>
         <p>We'd love to hear from you! Fill out the form below to get in touch.</p>

@@ -4,8 +4,8 @@ import '../styles/Product.css'; // Ensure to create and style this CSS file
 function Product() {
   return (
     <div className="product-container">
-      <h1 className="product-title" id="product">Product Offerings</h1>
-      <div className="product-cards">
+      <h1 className="product-title font-semibold" id="product">Product Offerings</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center">
         {/* Card 1 */}
         <div className="card">
           <img
@@ -20,7 +20,7 @@ function Product() {
         </div>
 
         {/* Card 2 */}
-        <div className="card">
+        <div className="card ">
           <img
             src="/images/ai.jpg"
             alt="AI Suite"
@@ -47,7 +47,7 @@ function Product() {
       </div>
 
       {/* Call to Action Button */}
-      <button className="cta-button">CTA</button>
+      <button className="cta-p-button">CTA</button>
     </div>
   );
 }

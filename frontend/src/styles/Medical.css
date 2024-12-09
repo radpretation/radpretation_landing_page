@@ -3,37 +3,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 20px;
-  background: linear-gradient(to right, #E6E6E6, #d4d3d3, #B6BCC8);
+  padding: 2%;
   border-radius: 10px;
   padding-left: 30px;
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 
 .medical-content {
-  max-width: 50%;
-  margin-left: 20px;
+  width: 'full';
 }
 
 .medical-content h1 {
   font-size: 2rem;
   color: #4b4b4b;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .medical-content p {
-  width: 40vw;
   font-size: 1rem;
   color: #6b6b6b;
   line-height: 1.6;
-  margin-bottom: 20px;
-  margin-left: 20px;
 }
 
-.cta-button {
+.cta-m-button {
   padding: 10px 20px;
-  background-color: #6b2fac;
+  background-color: #9E4CC1;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -49,10 +43,11 @@ cta-button:hover {
 .medical-image img {
   width: 30rem;
   height: 20rem;
-  border-radius: 15px;
+  border-radius: 2%;
   /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
   margin-right: 40px;
-  margin-top: 10%;
+  padding: 20px;
+  /* margin-top: 10%; */
 }
 
 
@@ -93,7 +88,7 @@ cta-button:hover {
     height: auto; 
     margin-right: 0; 
     max-width: 500px;
-    margin-top:40px;
+    /* margin-top:40px; */
     border-top-right-radius: 0px;
   }
 }
