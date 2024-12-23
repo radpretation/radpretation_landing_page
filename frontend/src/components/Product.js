@@ -47,7 +47,7 @@ function Product() {
       </div>
 
       {/* Call to Action Button */}
-      <button className="cta-p-button">CTA</button>
+      {/* <button className="cta-p-button">CTA</button> */}
     </div>
   );
 }

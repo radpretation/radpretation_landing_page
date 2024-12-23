@@ -14,7 +14,7 @@ function Medical() {
           accuracy and versatility for medical imaging needs.
         </p>
         <div className="grid place-items-center lg:place-items-start">
-        <button className="bg-[#9E4CC1] border-none text-xl text-white p-1 rounded-[24px] w-[100px] m-2" >CTA</button>
+        <button className="bg-[#9e4cc1] rounded-[35px] min-w-[140px] h-12 text-white mt-4" >Know more</button>
         </div>
       </div>
       <div className="medical-image grid place-items-center">
